@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   crawl-and-save:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: 저장소 가져오기
         uses: actions/checkout@v4
